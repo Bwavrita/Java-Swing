@@ -19,7 +19,7 @@ public class Screen extends JFrame {
     JLabel userLabel; // Fica ao lado do texto do usuario
     JLabel passLabel; // Fica ao lado do texto da senha
 
-    public Screen2(String txt) {
+    public Screen(String txt) {
         super(txt); // Chama a função para colocar o titulo na janela
         this.setSize(900, 480);
         this.getContentPane().setBackground(new Color(54, 54, 54));
